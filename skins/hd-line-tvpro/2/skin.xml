@@ -242,17 +242,17 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>                
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_emu.png"    position="90,671" size="40,20" zPosition="4" >
-                        <convert type="ExtremeInfo">Emu</convert>
+                        <convert type="CaidDisplay">Is_Emu</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_net.png"    position="90,671" size="40,20" zPosition="5" >
-                        <convert type="ExtremeInfo">Net</convert>
+                        <convert type="CaidDisplay">Is_Net</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
 
 	<!-- Crypt Info --> 
                 <widget source="session.CurrentService" render="TuxRendCaids" position="435,632" size="440,15" font="Regular;14" zPosition="2" backgroundColor="#180B0D0F" nocColor="#445566" emmColor="#A36209" ecmColor="#00A651" transparent="1">
-                       <convert type="TuxCaidDisplay">Default</convert>
+                       <convert type="CaidDisplay">Default</convert>
                 </widget>
         
         <!-- Cam Info  -->	
@@ -262,15 +262,12 @@
                         
         <!-- ECM Info  -->
                 <widget source="session.CurrentService" render="Label"    position="280,652" size="760,17" font="Regular;16" halign="center" zPosition="2" backgroundColor="black" foregroundColor="#556677" transparent="1">
-		        <convert type="TuxCaidDisplay">Default</convert>
+		        <convert type="CaidDisplay">Default</convert>
 		</widget>
 
         <!-- Tuner Info  -->  
 		<widget source="session.CurrentService" render="Label"    position="280,673" size="500,18" font="Regular;17" zPosition="2" backgroundColor="black" foregroundColor="grey" transparent="1">
-                       <convert type="MoreInfo2">%All   %SatName</convert>
-                </widget>
-                <widget source="session.CurrentService" render="Label"    position="0,720" size="0,0" font="Regular;10" zPosition="-10" foregroundColor="#FF000000" transparent="1">
-                       <convert type="MoreInfo2">%Bitrate</convert>
+                       <convert type="SerniceName2">%T   %S</convert>
                 </widget>
                 	
 	<!-- Signal Progressbar Start -->
@@ -450,11 +447,11 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>                
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_emu.png"    position="90,671" size="40,20" zPosition="4" >
-                        <convert type="ExtremeInfo">Emu</convert>
+                        <convert type="CaidDisplay">Is_Emu</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_net.png"    position="90,671" size="40,20" zPosition="5" >
-                        <convert type="ExtremeInfo">Net</convert>
+                        <convert type="CaidDisplay">Is_Net</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
                 
@@ -464,13 +461,13 @@
 		<eLabel text="Sys / Mod:" font="Regular;14" position="280,613" size="90,20" backgroundColor="black" foregroundColor="blue_tux" transparent="1"/>
                 
                 <widget source="session.CurrentService" render="Label" position="360,560" size="220,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%SatName</convert>
+                        <convert type="ServiceName2">Satellite</convert>
                 </widget>
                 <widget source="session.CurrentService" render="Label" position="360,585" size="220,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%All</convert>
+                        <convert type="ServiceName2">TpansponderInfo</convert>
                 </widget>
                 <widget source="session.CurrentService" render="Label" position="360,610" size="220,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%Sys  %Mod</convert>
+                        <convert type="ServiceName2">%s  %M</convert>
                 </widget>
 
  <!-- Infobar2.2  --> 
@@ -479,13 +476,13 @@
 		<eLabel text="A.PID:"   font="Regular;14" position="610,613" size="60,20" backgroundColor="black" foregroundColor="blue_tux" transparent="1"/>
 		
                 <widget source="session.CurrentService" render="Label" position="658,560" size="70,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%SID</convert>
+                        <convert type="ServiceInfo2">xSID</convert>
                 </widget>
                 <widget source="session.CurrentService" render="Label" position="658,585" size="70,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%VPID</convert>
+                        <convert type="ServiceInfo2">xVPID</convert>
                 </widget>
                 <widget source="session.CurrentService" render="Label" position="658,610" size="70,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%APID</convert>
+                        <convert type="ServiceInfo2">xAPID</convert>
                 </widget>
  <!-- Infobar2.3  --> 
                 <eLabel text="C A I D:"  font="Regular;14" position="765,563" size="75,20" backgroundColor="black" foregroundColor="blue_tux" transparent="1"/>
@@ -493,13 +490,13 @@
 		<eLabel text="Ecm PID:"  font="Regular;14" position="765,613" size="75,20" backgroundColor="black" foregroundColor="blue_tux" transparent="1"/>
 		
                 <widget source="session.CurrentService" render="Label" position="830,560" size="75,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%ECMCaid</convert>
+                        <convert type="CaidDisplay">CAID</convert>
                 </widget>
                 <widget source="session.CurrentService" render="Label" position="830,585" size="75,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%ECMProv</convert>
+                        <convert type="CaidDisplay">ProvID</convert>
                 </widget>
                 <widget source="session.CurrentService" render="Label" position="830,610" size="75,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="MoreInfo2">%ECMPid</convert>
+                        <convert type="CaidDisplay">PID</convert>
                 </widget>
                 
          <!-- Time Analog -->       
@@ -522,15 +519,14 @@
                                
         <!-- ECM Info  -->
                 <widget source="session.CurrentService" render="Label"    position="280,652" size="760,17" font="Regular;16" halign="center" zPosition="2" backgroundColor="black" foregroundColor="grey" transparent="1">
-		        <convert type="TuxCaidDisplay">Default</convert>
+		        <convert type="CaidDisplay">Default</convert>
 		</widget>
 		
         <!-- Bitrate Info  --> 
                 <eLabel text=" Bitrate:"                                  position="280,673" size="90,20"  font="Regular;17" zPosition="2" backgroundColor="blue_tux4" foregroundColor="blue_tux5" transparent="1"/>
-                <widget source="session.CurrentService" render="Label"    position="360,673" size="500,20" font="Regular;17" zPosition="2" backgroundColor="black" foregroundColor="blue_tux" transparent="1">
-                       <convert type="MoreInfo2">%Bitrate</convert>
-                </widget>
-                	
+	<widget source="videobit" render="Label" position="360,673"  size="230,20"  font="Regular;17" backgroundColor="black" foregroundColor="blue_tux" halign="left" transparent="1" zPosition="3"/>
+	<widget source="audiobit" render="Label" position="600,673"  size="230,20"  font="Regular;17" backgroundColor="black" foregroundColor="blue_tux" halign="left" transparent="1" zPosition="3"/>
+
 	<!-- Signal Progressbar Start -->
 		<eLabel text="SNR" position="1115,660" 	size="25,12" font="Regular;10" valign="center" backgroundColor="blue_tux4" foregroundColor="blue_tux" transparent="1"/>
                 <eLabel text="AGC" position="1145,660" 	size="25,12" font="Regular;10" valign="center" backgroundColor="blue_tux4" foregroundColor="blue_tux" transparent="1"/>
@@ -1166,7 +1162,7 @@
 
                 <!-- Caid Info -->
                 <widget source="session.CurrentService" render="Label" position="180,320" size="620,23" font="Regular;21" foregroundColor="grey" backgroundColor="blue_tux4" transparent="1">
-		       <convert type="ExtremeInfo">CaidInfo</convert>
+		       <convert type="ServiceInfo2">CAIDs</convert>
 		</widget>
 		
                 <eLabel position="10,348"  size="810,2" backgroundColor="blue_tux2" />
@@ -2550,11 +2546,11 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>                
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_emu.png"     position="975,60" size="40,20" zPosition="4" >
-                        <convert type="ExtremeInfo">Emu</convert>
+                        <convert type="CaidDisplay">Is_Emu</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_net.png"     position="975,60" size="40,20" zPosition="5" >
-                        <convert type="ExtremeInfo">Net</convert>
+                        <convert type="CaidDisplay">Is_Net</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
 	
@@ -2593,7 +2589,7 @@
 
                 <!-- Freq Info  -->
                 <widget source="session.CurrentService" render="Label" position="400,352" size="420,18" font="Regular;16" foregroundColor="grey" backgroundColor="blue_tux4" transparent="1">
-		       <convert type="MoreInfo2">%All   %SatName</convert>
+		       <convert type="ServiceName2">%T   %S</convert>
 		</widget>
 	</screen>
 	
@@ -2637,7 +2633,7 @@
 
                 <!-- Sat Info  --> 
                 <widget source="session.CurrentService" render="Label" position="400,485" size="740,23" font="Regular;20" foregroundColor="grey" backgroundColor="blue_tux4" transparent="1">
-		       <convert type="MoreInfo2">%All   %SatName</convert>
+		       <convert type="ServiceName2">%T   %S</convert>
 		</widget>
                 
                 <!-- Service Reference Info  --> 
