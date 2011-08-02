@@ -236,17 +236,17 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>                
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_emu.png"    position="290,643" size="40,20" zPosition="4" >
-                        <convert type="CaidDisplay">Is_Emu</convert>
+                        <convert type="CaidInfo2">Emu</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_net.png"    position="290,643" size="40,20" zPosition="5" >
-                        <convert type="CaidDisplay">Is_Net</convert>
+                        <convert type="CaidInfo2">Net</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
 
 	<!-- Crypt Info --> 
                 <widget source="session.CurrentService" render="TuxRendCaids" position="435,645" size="440,15" font="Regular;14" zPosition="2" backgroundColor="#180B0D0F" nocColor="#445566" emmColor="#A36209" ecmColor="#00A651" transparent="1">
-                       <convert type="CaidDisplay">Default</convert>
+                       <convert type="CaidInfo2">Default</convert>
                 </widget>
         
         <!-- Cam Info  -->	
@@ -433,11 +433,11 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>                
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_emu.png"    position="290,643" size="40,20" zPosition="4" >
-                        <convert type="CaidDisplay">Is_Emu</convert>
+                        <convert type="CaidInfo2">Emu</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_net.png"    position="290,643" size="40,20" zPosition="5" >
-                        <convert type="CaidDisplay">Is_Net</convert>
+                        <convert type="CaidInfo2">Net</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
                 
@@ -492,13 +492,13 @@
 		<eLabel text="Ecm PID:"  font="Regular;14" position="765,613" size="75,20" backgroundColor="black" foregroundColor="blue_tux" transparent="1"/>
 		
                 <widget source="session.CurrentService" render="Label" position="830,560" size="75,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="CaidDisplay">CAID</convert>
+                        <convert type="CaidInfo2">CAID</convert>
                 </widget>
                 <widget source="session.CurrentService" render="Label" position="830,585" size="75,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="CaidDisplay">ProvID</convert>
+                        <convert type="CaidInfo2">ProvID</convert>
                 </widget>
                 <widget source="session.CurrentService" render="Label" position="830,610" size="75,20"  font="Regular;18" backgroundColor="black" foregroundColor="grey" transparent="1">
-                        <convert type="CaidDisplay">PID</convert>
+                        <convert type="CaidInfo2">PID</convert>
                 </widget>
                 
          <!-- Time Analog -->       
@@ -521,7 +521,7 @@
                                
         <!-- ECM Info  -->
                 <widget source="session.CurrentService" render="Label"    position="335,645" size="640,18" font="Regular;16" halign="center" zPosition="2" backgroundColor="black" foregroundColor="grey" transparent="1">
-		        <convert type="CaidDisplay">Default</convert>
+		        <convert type="CaidInfo2">Default</convert>
 		</widget>
                 	
         <!-- Bitrate Info --> 
@@ -2523,11 +2523,11 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>                
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_emu.png"     position="975,60" size="40,20" zPosition="4" >
-                        <convert type="CaidDisplay">Is_Emu</convert>
+                        <convert type="CaidInfo2">Emu</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
                 <widget source="session.CurrentService" render="Pixmap"   pixmap="hd-line_tvpro/icons/icon_crypt_net.png"     position="975,60" size="40,20" zPosition="5" >
-                        <convert type="CaidDisplay">Is_Net</convert>
+                        <convert type="CaidInfo2">Net</convert>
                         <convert type="ConditionalShowHide"/>
                 </widget>
 	

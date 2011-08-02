@@ -24,5 +24,15 @@ skins/hd-line-tvpro/icons_menu/Makefile
 skins/hd-line-tvpro/main/Makefile
 skins/hd-line-tvpro/menu/Makefile
 skins/hd-line-tvpro/meta/Makefile
+skins/HD-Line_Tuxbox/Makefile
+skins/HD-Line_Tuxbox/1/Makefile
+skins/HD-Line_Tuxbox/2/Makefile
+skins/HD-Line_Tuxbox/3/Makefile
+skins/HD-Line_Tuxbox/buttons/Makefile
+skins/HD-Line_Tuxbox/icons/Makefile
+skins/HD-Line_Tuxbox/icons_cpypt/Makefile
+skins/HD-Line_Tuxbox/main/Makefile
+skins/HD-Line_Tuxbox/menu/Makefile
+skins/HD-Line_Tuxbox/meta/Makefile
 ])
 
