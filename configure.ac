@@ -34,5 +34,12 @@ skins/HD-Line_Tuxbox/icons_cpypt/Makefile
 skins/HD-Line_Tuxbox/main/Makefile
 skins/HD-Line_Tuxbox/menu/Makefile
 skins/HD-Line_Tuxbox/meta/Makefile
+skins/HD-Line_domica-2c/Makefile
+skins/HD-Line_domica-2c/buttons/Makefile
+skins/HD-Line_domica-2c/icons/Makefile
+skins/HD-Line_domica-2c/icons_cpypt/Makefile
+skins/HD-Line_domica-2c/main/Makefile
+skins/HD-Line_domica-2c/menu/Makefile
+skins/HD-Line_domica-2c/meta/Makefile
 ])
 
