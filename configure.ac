@@ -41,5 +41,19 @@ skins/HD-Line_domica-2c/icons_cpypt/Makefile
 skins/HD-Line_domica-2c/main/Makefile
 skins/HD-Line_domica-2c/menu/Makefile
 skins/HD-Line_domica-2c/meta/Makefile
+skins/LT6.HD/Makefile
+skins/LT6.HD/bg/Makefile
+skins/LT6.HD/meta/Makefile
+skins/LT6.HD/ltmc/Makefile
+skins/LT6.HD/selection/Makefile
+skins/LT6.HD/fonts/Makefile
+skins/LT6.HD/icons/Makefile
+skins/LT6.HD/skin_default/Makefile
+skins/LT6.HD/skin_default/icons/Makefile
+skins/LT6.HD/borderset/Makefile
+skins/LT6.HD/extensions/Makefile
+skins/LT6.HD/plugins/Makefile
+skins/LT6.HD/plugins/mt/Makefile
+skins/LT6.HD/buttons/Makefile
 ])
 
