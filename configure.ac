@@ -55,5 +55,26 @@ skins/LT6.HD/extensions/Makefile
 skins/LT6.HD/plugins/Makefile
 skins/LT6.HD/plugins/mt/Makefile
 skins/LT6.HD/buttons/Makefile
+skins/DMConcinnity-HD/Makefile
+skins/DMConcinnity-HD/skin_default/Makefile
+skins/DMConcinnity-HD/skin_default/icons/Makefile
+skins/DMConcinnity-HD/skin_default/buttons/Makefile
+skins/DMConcinnity-HD/python/Makefile
+skins/DMConcinnity-HD/python/Converter/Makefile
+skins/DMConcinnity-HD/python/Renderer/Makefile
+skins/DMConcinnity-HD/menu/Makefile
+skins/DMConcinnity-HD/meta/Makefile
+skins/DMConcinnity-HD/icons/Makefile
+skins/DMConcinnity-HD/extensions/Makefile
+skins/DMConcinnity-HD/buttons/Makefile
+skins/Glamour_X-Infinity/Makefile
+skins/Glamour_X-Infinity/menu/Makefile
+skins/Glamour_X-Infinity/meta/Makefile
+skins/Glamour_X-Infinity/fonts/Makefile
+skins/Glamour_X-Infinity/frame/Makefile
+skins/Glamour_X-Infinity/icons/Makefile
+skins/Glamour_X-Infinity/general/Makefile
+skins/Glamour_X-Infinity/slider/Makefile
+skins/Glamour_X-Infinity/buttons/Makefile
 ])
 

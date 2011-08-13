@@ -249,7 +249,7 @@
 		</widget>
 		<!-- ECM Info  -->
 		<widget source="session.CurrentService" render="Label" font="Regular;16" position="290,142" size="780,19" halign="right" foregroundColor="#b8b8ba" backgroundColor="bg" transparent="1">
-			<convert type="TuxCaidDisplay">Default</convert>
+			<convert type="CaidInfo2">Default</convert>
 		</widget>
 	</screen>
 	
